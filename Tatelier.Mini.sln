@@ -4,6 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tatelier.Mini", "Tatelier.Mini\Tatelier.Mini.csproj", "{C5F79AE0-F8A7-4FDB-928F-4D7A99E78464}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tatelier.DxLibDLL", "Tatelier.DxDLL\Tatelier.DxLibDLL.csproj", "{EC796219-3843-4882-A8BF-4FE0248775FA}"
+EndProject
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
