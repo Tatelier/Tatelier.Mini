@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Tatelier.Mini.Engine;
 using Tatelier.Mini.Scene;
 using static DxLibDLL.DX;
@@ -61,6 +62,7 @@ namespace Tatelier.Mini
 
         void Run()
         {
+
             RefreshNowTime();
 
             SetOutApplicationLogValidFlag(DX_FALSE);
@@ -195,7 +197,7 @@ namespace Tatelier.Mini
                 }
                 catch (Exception ex)
                 {
-
+                    MessageBox.Show($"例外が発生しました。太鼓さん次郎のリソースが置いてあるか確認してください。\n\n{ex}", "FATAL", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             } while (IsReboot);
         }
