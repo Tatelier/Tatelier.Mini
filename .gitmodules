@@ -1,0 +1,3 @@
+[submodule "tatelier-score"]
+	path = tatelier-score
+	url = https://github.com/Tatelier/tatelier-score.git
